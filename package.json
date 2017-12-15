@@ -1,0 +1,10 @@
+{
+  "name": "tests",
+  "version": "1.0.0",
+  "description": "Project for storing Postman tests",
+  "scripts": {
+    "api-tests-production": "newman run Development/tests/Postman Practice.postman_collection.json"
+  },
+  "author": "John Ristau",
+  "dependencies": {
+    "newman": "^3.9.1"}
